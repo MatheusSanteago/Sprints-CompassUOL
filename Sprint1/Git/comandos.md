@@ -27,3 +27,21 @@
 - git checkout - trocar pra tag
 - git push origin <name> - puxar uma
 - git push origin --tags - todos
+
+- git fetch -a - usar branch de outra dev 
+- git push --set-upstream origin <local>
+- git pull
+- git remote rm
+- git submodule add <repo>
+- git submodule
+- git push --recurse-submodules=on-demand
+- git show 
+- git show <tag>
+- git diff 
+- git shortlog
+- git clean 
+- git gc
+- git fsck
+- git reflog
+- git reset --hard <hash> 
+- git archive --format zip --output <zipfilename>
