@@ -14,3 +14,16 @@
 - .gitignore
 - git reset --hard
 
+- git branch <name>
+- git checkout -b <name>
+- git merge - <name><name> -
+- git stashs 
+- git stash apply <num>
+- git stash show -p ver difrenca
+- git stash drop / clear 
+- git tag 
+- git tag -a <nome>  -m "<msg>"
+- git show - verficiar tag
+- git checkout - trocar pra tag
+- git push origin <name> - puxar uma
+- git push origin --tags - todos
