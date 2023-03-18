@@ -4,16 +4,16 @@
 
 **1)**
 
-     - `root` = Usuário.
-     - `localhost` = Nome do computador.
-     - `var` = Diretório.
-     - `#` = Privilégios de administrador. 
+     - root = Usuário.
+     - localhost = Nome do computador.
+     - var = Diretório.
+     - # = Privilégios de administrador. 
    <hr>
    
 **2)** 
 
        - /bin  = Programas e Comandos básicos do sistema.
-       - /boo` = Arquivos de inicialização.
+       - /boo = Arquivos de inicialização.
        - /etc  = Arquivos de configuração do sistema e de serviços de rede.
        - /home = Diretório com os subdiretórios de cada usuário.
        - /lib  = Bibliotecas compartilhadas(Programas do Sistema e Kernel).
