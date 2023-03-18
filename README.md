@@ -1,4 +1,11 @@
 # D&A - CompassUOL
+
+<h3>Sobre mim</h3>
+
+  - Olá, me chamo Matheus Santeago. Atualmente tenho 19 anos e sou natural do Rio de Janeiro.
+    - Faço parte dos Replicantes ou Squad 2.  
+    - Sempre fui apaixonado por tecnologia, e ao ver o impacto que a mesma faz em grande escala em todo mundo despertou em mim o desejo de atuar na área.
+<hr>
 Repositório com conteúdo das sprints do programa de bolsas da Compass UOL.
 
 **Contéudo da Sprint 1** 
