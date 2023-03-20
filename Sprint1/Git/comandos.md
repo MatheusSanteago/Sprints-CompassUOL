@@ -13,7 +13,6 @@
 - git checkout <folder>
 - .gitignore
 - git reset --hard
-
 - git branch <name>
 - git checkout -b <name>
 - git merge - <name><name> -
@@ -27,7 +26,6 @@
 - git checkout - trocar pra tag
 - git push origin <name> - puxar uma
 - git push origin --tags - todos
-
 - git fetch -a - usar branch de outra dev 
 - git push --set-upstream origin <local>
 - git pull
