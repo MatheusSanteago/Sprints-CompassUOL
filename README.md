@@ -2,8 +2,10 @@
 
 <h3>Sobre mim</h3>
 
-  - Olá, me chamo Matheus Santeago. Atualmente tenho 19 anos e sou natural do Rio de Janeiro.
-    - Faço parte dos Replicantes ou Squad 2.  
+- Olá, me chamo Matheus Santeago. Atualmente tenho 19 anos e sou natural do Rio de Janeiro. Estou cursando Análise e Desenvolvimento de Sistemas na Unicesumar, até este momento estou no 2° Periodo.
+
+     - Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde trabalho no setor de T.I, onde mexo com infraestruta e hardware.
+     -  Meu principal hobby, quando não estou estudando é simulação em geral. 
     - Sempre fui apaixonado por tecnologia, e ao ver o impacto que a mesma faz em grande escala em todo mundo despertou em mim o desejo de atuar na área.
 <hr>
 Repositório com conteúdo das sprints do programa de bolsas da Compass UOL.
