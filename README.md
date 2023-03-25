@@ -23,5 +23,5 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 
 >##### Git & Github + Linux
 - [X] Git & Github
-- [ ] Administração de Sistemas GNU/Linux: Fundamentos e Prática
+- [X] Administração de Sistemas GNU/Linux: Fundamentos e Prática
 
