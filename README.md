@@ -17,8 +17,10 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 
 #### **SPRINT 1** 
 
-<img align="left" alt="ms-pic" height="40" style="border-radius:50px;" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
-<img align="left" alt="ms-pic" height="40" style="border-radius:50px;" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg">
+<div>
+    <img align="left" alt="ms-pic" height="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
+    <img align="left" alt="ms-pic" height="40" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg">
+</div>
 <br><br><br>
 
 >##### Git & Github + Linux
