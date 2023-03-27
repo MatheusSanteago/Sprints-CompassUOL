@@ -27,3 +27,15 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 - [X] Git & Github
 - [X] Administração de Sistemas GNU/Linux: Fundamentos e Prática
 
+#### **SPRINT 2** 
+
+<div>
+    <img align="left" alt="ms-pic" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <img align="left" alt="ms-pic" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <img align="left" alt="ms-pic" height="40" src="https://cdn-icons-png.flaticon.com/512/657/657695.png">
+</div>
+<br><br><br>
+
+>##### SQL & Fundamentos de Big Data 3.0 
+- [] SQL Análise de Dados: Do básico ao avançado
+- [] Big Data Fundamentos 3.0
