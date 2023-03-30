@@ -1,54 +1,65 @@
--- EXERCÍCIOS ######################################################################
+## EXERCÍCIOS 
+###### SEÇÃO 2
 
--- (Exercício 1) Calcule quantos salários mínimos ganha cada cliente da tabela 
--- sales.customers. Selecione as colunas de: email, income e a coluna calculada "salários mínimos"
--- Considere o salário mínimo igual à R$
+### Exercício 1
 
-select email, income, trunc(income / 1200,1) as "Salários mínimos"
-from sales.customers c;
+Calcule quantos salários mínimos ganha cada cliente da tabela 
+sales.customers. Selecione as colunas de: email, income e a coluna calculada "salários mínimos"
+Considere o salário mínimo igual à R$
 
--- (Exercício 2) Na query anterior acrescente uma coluna informando TRUE se o cliente
--- ganha acima de 5 salários mínimos e FALSE se ganha 4 salários ou menos.
--- Chame a nova coluna de "acima de 4 salários"
+	select email, income, trunc(income / 1200,1) as "Salários mínimos"
+	from sales.customers c;
 
-select 
-	email, 
-	income, 
-	trunc(income / 1200,1) as "Salários mínimos", 
-	(trunc(income / 1200,1) = 4)
-from sales.customers c;
+### Exercício 2
 
+Na query anterior acrescente uma coluna informando TRUE se o cliente
+ganha acima de 5 salários mínimos e FALSE se ganha 4 salários ou menos.
+Chame a nova coluna de "acima de 4 salários"
 
--- (Exercício 3) Na query anterior filtre apenas os clientes que ganham entre
--- 4 e 5 salários mínimos. Utilize o comando BETWEEN
-
-select 
-	email, 
-	income, 
-	(trunc(income / 1200,1)) as salario_minimo, 
-	(trunc(income / 1200,1) >= 4) as salario_maior
-from sales.customers c
-where (trunc(income / 1200,1)) between 4 and 5;
-
--- (Exercício 4) Selecine o email, cidade e estado dos clientes que moram no estado de 
--- Minas Gerais e Mato Grosso. 
-
-select email, city , state 
-from sales.customers c 
-where state in ('MG','MS');
+	select 
+		email, 
+		income, 
+		trunc(income / 1200,1) as "Salários mínimos", 
+		(trunc(income / 1200,1) = 4)
+	from sales.customers c;
 
 
--- (Exercício 5) Selecine o email, cidade e estado dos clientes que não 
--- moram no estado de São Paulo.
+### Exercício 3 
 
-select email, city , state 
-from sales.customers c 
-where state not in ('SP');
+Na query anterior filtre apenas os clientes que ganham entre
+4 e 5 salários mínimos. Utilize o comando BETWEEN
+
+	select 
+		email, 
+		income, 
+		(trunc(income / 1200,1)) as salario_minimo, 
+		(trunc(income / 1200,1) >= 4) as salario_maior
+	from sales.customers c
+	where (trunc(income / 1200,1)) between 4 and 5;
+	
+### Exercício 4 
+ Selecine o email, cidade e estado dos clientes que moram no estado de 
+Minas Gerais e Mato Grosso. 
+
+	select email, city , state 
+	from sales.customers c 
+	where state in ('MG','MS');
 
 
--- (Exercício 6) Selecine os nomes das cidade que começam com a letra Z.
--- Dados da tabela temp_table.regions
+### Exercício 5
 
-select city 
-from temp_tables.regions r
-where city like 'Z%';
+Selecine o email, cidade e estado dos clientes que não moram no estado de São Paulo.
+
+	select email, city , state 
+	from sales.customers c 
+	where state not in ('SP');
+
+
+### Exercício 6 
+
+Selecine os nomes das cidade que começam com a letra Z.
+Dados da tabela temp_table.regions
+
+	select city 
+	from temp_tables.regions r
+	where city like 'Z%';
