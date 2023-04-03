@@ -37,7 +37,7 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 <br><br><br>
 
 >##### SQL & Fundamentos de Big Data 3.0 
-- [ ] SQL Análise de Dados: Do básico ao avançado
+- [X] SQL Análise de Dados: Do básico ao avançado
 - [ ] Big Data Fundamentos 3.0
 
 >[Atividades SQL ](https://github.com/MatheusSanteago/Sprints-CompassUOL/blob/main/Sprint2/SQL)
