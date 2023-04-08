@@ -41,3 +41,13 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 - [X] Big Data Fundamentos 3.0
 
 >[Atividades SQL ](https://github.com/MatheusSanteago/Sprints-CompassUOL/blob/main/Sprint2/SQL)
+
+#### **SPRINT 3** 
+
+<div>
+    <img align="left" alt="ms-pic" height="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
+</div>
+<br><br><br>
+
+>##### Python
+- [ ] Python 3 - Curso Completo do Básico ao Avançado
