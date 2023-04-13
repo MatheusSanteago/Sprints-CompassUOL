@@ -1,11 +1,26 @@
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+class Lampada():
+    def __init__(self, status):
+        self.ligada = status
+
+    def liga(self):
+        self.ligada = True
+        return True
+
+    def desliga(self):
+        self.ligada = False
+        return False
+
+    def esta_ligada(self):
+        status = self.ligada
+        print(((False, True))[status])
+        return status
 
 
-def my_map(list, f):
-    new_values = []
-    for i in range(len(list)):
-        new_values.append(f(list[i], 2))
-    print(new_values)
+lampada = Lampada(False)
 
-
-my_map(a, pow)
+lampada.liga()
+print('A lâmpada está ligada?')
+lampada.esta_ligada()
+lampada.desliga()
+print('A lâmpada ainda está ligada?')
+lampada.esta_ligada()
