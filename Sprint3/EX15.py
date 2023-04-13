@@ -19,8 +19,6 @@ class Lampada():
 lampada = Lampada(False)
 
 lampada.liga()
-print('A lâmpada está ligada?')
-lampada.esta_ligada()
+print('A lâmpada está ligada?', lampada.esta_ligada())
 lampada.desliga()
-print('A lâmpada ainda está ligada?')
-lampada.esta_ligada()
+print('A lâmpada ainda está ligada?', lampada.esta_ligada())
