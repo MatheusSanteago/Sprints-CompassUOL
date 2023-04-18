@@ -9,6 +9,11 @@ actorsGross = []
 def extracao(file, data):   # Extração
     with open(file) as actorsData:
         for i in actorsData:
+            if '"Robert Downey, Jr."' in i:
+                data.append(i.replace(',', '', 1).replace(
+                    '.', '', 1).replace(
+                    '"', '', 2).rstrip('\n').split(','))
+            else:
             lineContent = i.rstrip('\n').split(',')
             data.append(lineContent)
 
