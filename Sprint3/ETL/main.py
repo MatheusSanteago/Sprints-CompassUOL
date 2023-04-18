@@ -3,10 +3,10 @@ from transformacao.functions import avgFaturamentoBruto,\
 
 
 file = 'actors.csv'
-actorsGross = []
+actorsGross = []  # Lista com dados brutos.
 
 
-def extracao(file, data):   # Extração
+def extracao(file, data):
     with open(file) as actorsData:
         for i in actorsData:
             if '"Robert Downey, Jr."' in i:
@@ -14,24 +14,19 @@ def extracao(file, data):   # Extração
                     '.', '', 1).replace(
                     '"', '', 2).rstrip('\n').split(','))
             else:
-            lineContent = i.rstrip('\n').split(',')
-            data.append(lineContent)
+                lineContent = i.rstrip('\n').split(',')
+                data.append(lineContent)
 
 
-def transformacao(data):  # Transformação
-    data.pop(0)
+def transformacao(data):
+    data.pop(0)  # Remover Header do CSV
     for i in range(len(data)):
-        if len(data[i]) >= 7:
-            data[i][0] = data[i][0] + data[i][1]
-            data[i].pop(1)
         for x in range(len(data[i])):
             if data[i][x][0].isnumeric():
                 if x == 2:
-                    data[i][x] = int((data[i][x]).replace(
-                        ' ', ''))
+                    data[i][x] = int((data[i][x]).replace(' ', ''))
                 else:
-                    data[i][x] = float((data[i][x]).replace(
-                        ' ', ''))
+                    data[i][x] = float((data[i][x]).replace(' ', ''))
 
     return data
 
@@ -39,8 +34,6 @@ def transformacao(data):  # Transformação
 if __name__ == '__main__':
     extracao(file, actorsGross)
     actors = transformacao(actorsGross)
-    # for i in actors:
-    #     print(i[2] is int)
     # Resultados
     myMax(actors, 2, 1)
     myMax(actors, 3, 2)
