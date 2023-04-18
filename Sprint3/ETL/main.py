@@ -42,3 +42,8 @@ if __name__ == '__main__':
     # for i in actors:
     #     print(i[2] is int)
     # Resultados
+    myMax(actors, 2, 1)
+    myMax(actors, 3, 2)
+    avgFaturamentoBruto(actors)
+    filmeFrequente(actors)
+    maiorFaturamento(actors)
