@@ -1,3 +1,7 @@
+from transformacao.functions import avgFaturamentoBruto,\
+    filmeFrequente, maiorFaturamento, myMax  # Funções
+
+
 file = 'actors.csv'
 actorsGross = []
 
