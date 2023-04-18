@@ -1,6 +1,6 @@
 class Pessoa:
     def __init__(self, id):
-        self._nome = 0
+        self._nome = ''
         self.id = id
 
     @property
