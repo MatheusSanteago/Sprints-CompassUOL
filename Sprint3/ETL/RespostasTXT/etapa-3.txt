@@ -1,0 +1,50 @@
+Ator/Atriz: Harrison Ford -- Média de Faturamento bruto: 118.82 
+Ator/Atriz: Samuel L. Jackson -- Média de Faturamento bruto: 69.17 
+Ator/Atriz: Morgan Freeman -- Média de Faturamento bruto: 73.25 
+Ator/Atriz: Tom Hanks -- Média de Faturamento bruto: 98.65 
+Ator/Atriz: Robert Downey Jr -- Média de Faturamento bruto: 74.48 
+Ator/Atriz: Eddie Murphy -- Média de Faturamento bruto: 100.27 
+Ator/Atriz: Tom Cruise -- Média de Faturamento bruto: 99.64 
+Ator/Atriz: Johnny Depp -- Média de Faturamento bruto: 74.86 
+Ator/Atriz: Michael Caine -- Média de Faturamento bruto: 57.78 
+Ator/Atriz: Scarlett Johansson -- Média de Faturamento bruto: 90.3 
+Ator/Atriz: Gary Oldman -- Média de Faturamento bruto: 86.68 
+Ator/Atriz: Robin Williams -- Média de Faturamento bruto: 66.92 
+Ator/Atriz: Bruce Willis -- Média de Faturamento bruto: 53.16 
+Ator/Atriz: Stellan Skarsgard -- Média de Faturamento bruto: 73.84 
+Ator/Atriz: Anthony Daniels -- Média de Faturamento bruto: 451.84 
+Ator/Atriz: Ian McKellen -- Média de Faturamento bruto: 101.63 
+Ator/Atriz: Will Smith -- Média de Faturamento bruto: 131.21 
+Ator/Atriz: Stanley Tucci -- Média de Faturamento bruto: 62.48 
+Ator/Atriz: Matt Damon -- Média de Faturamento bruto: 79.67 
+Ator/Atriz: Robert DeNiro -- Média de Faturamento bruto: 39.0 
+Ator/Atriz: Cameron Diaz -- Média de Faturamento bruto: 89.17 
+Ator/Atriz: Liam Neeson -- Média de Faturamento bruto: 46.71 
+Ator/Atriz: Andy Serkis -- Média de Faturamento bruto: 125.68 
+Ator/Atriz: Don Cheadle -- Média de Faturamento bruto: 84.86 
+Ator/Atriz: Ben Stiller -- Média de Faturamento bruto: 76.41 
+Ator/Atriz: Helena Bonham Carter -- Média de Faturamento bruto: 78.39 
+Ator/Atriz: Orlando Bloom -- Média de Faturamento bruto: 165.64 
+Ator/Atriz: Woody Harrelson -- Média de Faturamento bruto: 56.32 
+Ator/Atriz: Cate Blanchett -- Média de Faturamento bruto: 71.86 
+Ator/Atriz: Julia Roberts -- Média de Faturamento bruto: 65.13 
+Ator/Atriz: Elizabeth Banks -- Média de Faturamento bruto: 77.89 
+Ator/Atriz: Ralph Fiennes -- Média de Faturamento bruto: 75.43 
+Ator/Atriz: Emma Watson -- Média de Faturamento bruto: 157.76 
+Ator/Atriz: Tommy Lee Jones -- Média de Faturamento bruto: 58.29 
+Ator/Atriz: Brad Pitt -- Média de Faturamento bruto: 67.02 
+Ator/Atriz: Adam Sandler -- Média de Faturamento bruto: 83.16 
+Ator/Atriz: Daniel Radcliffe -- Média de Faturamento bruto: 154.96 
+Ator/Atriz: Jonah Hill -- Média de Faturamento bruto: 89.83 
+Ator/Atriz: Owen Wilson -- Média de Faturamento bruto: 66.73 
+Ator/Atriz: Idris Elba -- Média de Faturamento bruto: 99.25 
+Ator/Atriz: Bradley Cooper -- Média de Faturamento bruto: 102.31 
+Ator/Atriz: Mark Wahlberg -- Média de Faturamento bruto: 70.83 
+Ator/Atriz: Jim Carrey -- Média de Faturamento bruto: 94.27 
+Ator/Atriz: Dustin Hoffman -- Média de Faturamento bruto: 58.65 
+Ator/Atriz: Leonardo DiCaprio -- Média de Faturamento bruto: 100.73 
+Ator/Atriz: Jeremy Renner -- Média de Faturamento bruto: 119.06 
+Ator/Atriz: Philip Seymour Hoffman -- Média de Faturamento bruto: 61.59 
+Ator/Atriz: Sandra Bullock -- Média de Faturamento bruto: 70.36 
+Ator/Atriz: Chris Evans -- Média de Faturamento bruto: 106.86 
+Ator/Atriz: Anne Hathaway -- Média de Faturamento bruto: 96.66 
