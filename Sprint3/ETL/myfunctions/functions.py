@@ -32,18 +32,11 @@ def filmeFrequente(data):  # Função atividade 4
     f = open(f'./RespostasTXT/etapa-{4}.txt', 'w')
 
     movies = [data[i][4] for i in range(len(data))]
-    mostWatch = {
-        'movie': '',
-        'frequency': 0
-    }
-    for i in range(len(movies)):
-        counter = movies.count(movies[i])
-        if counter > mostWatch['frequency']:
-            mostWatch['frequency'], mostWatch['movie'] = counter, movies[i]
-        if i == len(data) - 1:
-            text = f'O filme mais frequente é {mostWatch["movie"]} com \
-{mostWatch["frequency"]} frequências'
-            f.write(text)
+    movie = max(movies, key=movies.count)
+
+    text = f'O filme mais frequente é {movie} com \
+ {movies.count(movie)} frequências'
+    f.write(text)
     f.close()
 
 
