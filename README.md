@@ -52,6 +52,7 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 >##### Python
 - [X] Python 3 - Curso Completo do Básico ao Avançado 1/2
 
+>[Atividades Python](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint3)
 
 #### **SPRINT 4** 
 
