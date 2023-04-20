@@ -50,4 +50,4 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 <br><br><br>
 
 >##### Python
-- [ ] Python 3 - Curso Completo do Básico ao Avançado
+- [X] Python 3 - Curso Completo do Básico ao Avançado
