@@ -43,11 +43,15 @@ def filmeFrequente(data):  # Função atividade 4
 def maiorFaturamento(data):  # Função atividade 5
     f = open(f'./RespostasTXT/etapa-{5}.txt', 'w')
 
-    aux = sorted([data[i][1] for i in range(len(data))], reverse=True)
-    for i in range(len(aux)):
-        for x in range(len(aux)):
-            if aux[i] == data[x][1]:
-                content = f'{data[x][0]} --- {aux[i]} \n'
-                f.write(content)
+    matriz = []
+    for i in data:
+        matriz.append([i[0], i[1]])
 
+    matriz.pop(0)
+    matriz.sort(key=lambda x: x[1], reverse=True)
+
+    for i in range(len(matriz)):
+        content = f'O ator/atriz {matriz[i][0]} teve o faturamento bruto de \
+{matriz[i][1]}\n'
+        f.write(content)
     f.close()
