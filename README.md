@@ -63,6 +63,6 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 <br><br><br>
 
 >##### Python e Docker
-- [ ] Python 3 - Curso Completo do Básico ao Avançado 2/2 
+- [X] Python 3 - Curso Completo do Básico ao Avançado 2/2 
 - [ ] Estatística Descritiva com Python
 - [ ] Docker para Desenvolvedores (com Docker Swarm e Kubernetes)
