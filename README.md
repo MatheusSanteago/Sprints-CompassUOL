@@ -50,4 +50,19 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 <br><br><br>
 
 >##### Python
-- [ ] Python 3 - Curso Completo do Básico ao Avançado
+- [X] Python 3 - Curso Completo do Básico ao Avançado 1/2
+
+>[Atividades Python](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint3)
+
+#### **SPRINT 4** 
+
+<div>
+    <img align="left" alt="ms-pic" height="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
+    <img align="left" alt="ms-pic" height="40" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg">
+</div>
+<br><br><br>
+
+>##### Python e Docker
+- [X] Python 3 - Curso Completo do Básico ao Avançado 2/2 
+- [ ] Estatística Descritiva com Python
+- [ ] Docker para Desenvolvedores (com Docker Swarm e Kubernetes)
