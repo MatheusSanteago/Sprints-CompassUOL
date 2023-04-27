@@ -17,7 +17,7 @@ def calcula_saldo(lancamentos) -> float:
     valorEmDebito = list(map(lambda a: a[0], debito))
     valorEmCredito = list(map(lambda a: a[0], credito))
 
-    return reduce(soma, valorEmCredito) - reduce(soma, valorEmDebito)
+    return reduce(lambda x, y: x+y, valorEmCredito) - reduce(lambda x, y: x+y, valorEmDebito)
 
 
 calcula_saldo(lancamentos)
