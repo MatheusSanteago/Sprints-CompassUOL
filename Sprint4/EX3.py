@@ -7,9 +7,6 @@ lancamentos = [
 ]
 
 
-def soma(a, b): return a + b
-
-
 def calcula_saldo(lancamentos) -> float:
     debito = list(filter(lambda l: l[1] in 'D', lancamentos))
     credito = list(filter(lambda l: l[1] in 'C', lancamentos))
