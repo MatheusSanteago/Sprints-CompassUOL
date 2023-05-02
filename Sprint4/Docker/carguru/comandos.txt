@@ -1,0 +1,11 @@
+1)
+
+docker build .   
+
+docker tag 2f2 carguru
+
+docker run --name cargurupy carguru
+
+2)
+
+docker start cargurupy -i
