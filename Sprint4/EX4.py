@@ -23,8 +23,7 @@ def calcular_valor_maximo(operadores, operandos) -> float:
     num1 = list((map(lambda a: a[1][0], t)))
     num2 = list((map(lambda a: a[1][1], t)))
     listaCalculada = list(map(calculo, num1, operadores, num2))
-    maxValue = max(listaCalculada)
-    return maxValue
+    return max(listaCalculada)
 
 
 print(calcular_valor_maximo(operadores, operandos))
