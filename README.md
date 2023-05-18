@@ -77,5 +77,5 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 >##### AWS
 - [X] AWS Partner: Sales Accreditation (Business)
 - [X] AWS Partner: Accreditation (Technical)
-- [ ] AWS Partner: Cloud Economics Accreditation
-- [ ] Exam Prep: AWS Certified Cloud Practitioner
+- [X] AWS Partner: Cloud Economics Accreditation
+- [X] Exam Prep: AWS Certified Cloud Practitioner
