@@ -9,7 +9,7 @@
 Olá, me chamo **Matheus Santeago**, sou de São Gonçalo, RJ. Estou cursando Análise e Desenvolvimento de Sistemas na UniCesumar, até este momento estou no 2° Periodo. 
 
 > Sempre fui apaixonado por tecnologia, e ao ver o impacto que a mesma faz em grande escala em todo mundo <br> despertou em mim o desejo de atuar na área.
-Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde trabalho no setor de T.I, no qual trabalho com infraestruta e hardware.
+Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei no setor de T.I, no qual mexi com infraestruta e hardware.
 
 -  Meus principais hobbies são, cozinhar e mexer com hardware. 
 
@@ -64,5 +64,18 @@ Atualmente sou Jovem Aprendiz pela manhã em uma empresa de transporte, onde tra
 
 >##### Python e Docker
 - [X] Python 3 - Curso Completo do Básico ao Avançado 2/2 
-- [ ] Estatística Descritiva com Python
-- [ ] Docker para Desenvolvedores (com Docker Swarm e Kubernetes)
+- [X] Estatística Descritiva com Python
+- [X] Docker para Desenvolvedores (com Docker Swarm e Kubernetes)
+
+#### **SPRINT 5** 
+
+<div>
+    <img align="left" alt="ms-pic" height="30" width="40" src="https://logodownload.org/wp-content/uploads/2017/11/amazon-web-services-logo.png">
+</div>
+<br><br><br>
+
+>##### AWS
+- [X] AWS Partner: Sales Accreditation (Business)
+- [X] AWS Partner: Accreditation (Technical)
+- [ ] AWS Partner: Cloud Economics Accreditation
+- [ ] Exam Prep: AWS Certified Cloud Practitioner
