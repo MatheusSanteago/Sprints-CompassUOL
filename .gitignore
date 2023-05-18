@@ -3,3 +3,4 @@ Sprint3/arquivo_texto.txt
 Sprint3/ETL/myfunctions/__pycache__/
 .idea/
 node_modules
+.vscode/tasks.json
