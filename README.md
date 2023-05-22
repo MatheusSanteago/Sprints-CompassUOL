@@ -67,7 +67,7 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 - [X] Estatística Descritiva com Python
 - [X] Docker para Desenvolvedores (com Docker Swarm e Kubernetes)
 
-#### **SPRINT 5** 
+#### **SPRINT 5 e 6** 
 
 <div>
     <img align="left" alt="ms-pic" height="30" width="40" src="https://logodownload.org/wp-content/uploads/2017/11/amazon-web-services-logo.png">
@@ -79,3 +79,16 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 - [X] AWS Partner: Accreditation (Technical)
 - [X] AWS Partner: Cloud Economics Accreditation
 - [X] Exam Prep: AWS Certified Cloud Practitioner
+- [ ] AWS Skill Builder - Data Analytics Fundamentals (Portuguese)
+- [ ] AWS Partner: Data Analytics on AWS (Business) (Portuguese)
+- [ ] AWS Skill Builder - Introduction to Amazon Kinesis Streams
+- [ ] AWS Skill Builder - Introduction to Amazon Kinesis Analytics
+- [ ] AWS Skill Builder - Introduction to Amazon Elastic MapReduce (EMR) (Portuguese)
+- [ ] AWS Skill Builder - Getting Started with Amazon Redshift
+- [ ] AWS Skill Builder - Introduction to Amazon Athena (Portuguese)
+- [ ] AWS Skill Builder - Introduction to Amazon Quicksight (Portuguese)
+- [ ] AWS Skill Builder - Introduction to AWS IoT Analytics
+- [ ] AWS Skill Builder - Deep Dive into Concepts and Tools for Analyzing Streaming Data (Portuguese)
+- [ ] AWS Skill Builder - Best Practices for Data Warehousing with Amazon Redshift (Portuguese)
+- [ ] AWS Skill Builder - Serverless Analytics (Portuguese)
+- [ ] AWS Skill Builder - Why Analytics for Games (Portuguese)
