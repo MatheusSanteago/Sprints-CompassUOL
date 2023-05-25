@@ -80,7 +80,7 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 - [X] AWS Partner: Cloud Economics Accreditation
 - [X] Exam Prep: AWS Certified Cloud Practitioner
 - [X] AWS Skill Builder - Data Analytics Fundamentals (Portuguese)
-- [ ] AWS Partner: Data Analytics on AWS (Business) (Portuguese)
+- [X] AWS Partner: Data Analytics on AWS (Business) (Portuguese)
 - [ ] AWS Skill Builder - Introduction to Amazon Kinesis Streams
 - [ ] AWS Skill Builder - Introduction to Amazon Kinesis Analytics
 - [ ] AWS Skill Builder - Introduction to Amazon Elastic MapReduce (EMR) (Portuguese)
