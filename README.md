@@ -81,11 +81,11 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 - [X] Exam Prep: AWS Certified Cloud Practitioner
 - [X] AWS Skill Builder - Data Analytics Fundamentals (Portuguese)
 - [X] AWS Partner: Data Analytics on AWS (Business) (Portuguese)
-- [ ] AWS Skill Builder - Introduction to Amazon Kinesis Streams
-- [ ] AWS Skill Builder - Introduction to Amazon Kinesis Analytics
-- [ ] AWS Skill Builder - Introduction to Amazon Elastic MapReduce (EMR) (Portuguese)
+- [X] AWS Skill Builder - Introduction to Amazon Kinesis Streams
+- [X] AWS Skill Builder - Introduction to Amazon Kinesis Analytics
+- [X] AWS Skill Builder - Introduction to Amazon Elastic MapReduce (EMR) (Portuguese)
 - [ ] AWS Skill Builder - Getting Started with Amazon Redshift
-- [ ] AWS Skill Builder - Introduction to Amazon Athena (Portuguese)
+- [X] AWS Skill Builder - Introduction to Amazon Athena (Portuguese)
 - [ ] AWS Skill Builder - Introduction to Amazon Quicksight (Portuguese)
 - [ ] AWS Skill Builder - Introduction to AWS IoT Analytics
 - [ ] AWS Skill Builder - Deep Dive into Concepts and Tools for Analyzing Streaming Data (Portuguese)
