@@ -15,8 +15,26 @@ LOCATION "s3://pblabum/dados";
 
 SELECT nome FROM meubanco.pessoas WHERE ano = 1999 ORDER BY total LIMIT 15;
 
-SELECT name, count(name) as Usos
-FROM meubanco.pessoas 
-WHERE ano >= 1950 
-GROUP by name
-LIMIT 3;
+WITH contador AS (
+  SELECT
+    CONCAT(SUBSTRING(CAST(ano AS VARCHAR), 1, 3), '0s') AS decada,
+    name,
+    SUM(total) AS quantidade,
+    ROW_NUMBER() OVER (PARTITION BY CONCAT(SUBSTRING(CAST(ano AS VARCHAR), 1, 3), '0s') ORDER BY SUM(total) DESC) AS pos
+  FROM
+    meubanco.pessoas
+  WHERE
+    ano >= 1950 
+  GROUP BY
+    CONCAT(SUBSTRING(CAST(ano AS VARCHAR), 1, 3), '0s'), name
+)
+SELECT
+  decada,
+  name,
+  quantidade
+FROM
+  contador
+WHERE
+  pos <= 3
+ORDER BY
+  decada, quantidade DESC
