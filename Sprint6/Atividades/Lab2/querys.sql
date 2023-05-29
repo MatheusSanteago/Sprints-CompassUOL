@@ -14,3 +14,9 @@ WITH SERDEPROPERTIES (
 LOCATION "s3://pblabum/dados";
 
 SELECT nome FROM meubanco.pessoas WHERE ano = 1999 ORDER BY total LIMIT 15;
+
+SELECT name, count(name) as Usos
+FROM meubanco.pessoas 
+WHERE ano >= 1950 
+GROUP by name
+LIMIT 3;
