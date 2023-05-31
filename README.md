@@ -11,7 +11,7 @@ Olá, me chamo **Matheus Santeago**, sou de São Gonçalo, RJ. Estou cursando An
 > Sempre fui apaixonado por tecnologia, e ao ver o impacto que a mesma faz em grande escala em todo mundo <br> despertou em mim o desejo de atuar na área.
 Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei no setor de T.I, no qual mexi com infraestruta e hardware.
 
--  Meus principais hobbies são, cozinhar e mexer com hardware. 
+-  Meus principais hobbies são, cozinhar, ler e mexer com hardware. 
 
 ## Trilha de Aprendizado 💫
 
