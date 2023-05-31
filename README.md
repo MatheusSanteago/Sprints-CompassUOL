@@ -84,11 +84,11 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 - [X] AWS Skill Builder - Introduction to Amazon Kinesis Streams
 - [X] AWS Skill Builder - Introduction to Amazon Kinesis Analytics
 - [X] AWS Skill Builder - Introduction to Amazon Elastic MapReduce (EMR) (Portuguese)
-- [ ] AWS Skill Builder - Getting Started with Amazon Redshift
+- [X] AWS Skill Builder - Getting Started with Amazon Redshift
 - [X] AWS Skill Builder - Introduction to Amazon Athena (Portuguese)
-- [ ] AWS Skill Builder - Introduction to Amazon Quicksight (Portuguese)
-- [ ] AWS Skill Builder - Introduction to AWS IoT Analytics
-- [ ] AWS Skill Builder - Deep Dive into Concepts and Tools for Analyzing Streaming Data (Portuguese)
-- [ ] AWS Skill Builder - Best Practices for Data Warehousing with Amazon Redshift (Portuguese)
-- [ ] AWS Skill Builder - Serverless Analytics (Portuguese)
-- [ ] AWS Skill Builder - Why Analytics for Games (Portuguese)
+- [X] AWS Skill Builder - Introduction to Amazon Quicksight (Portuguese)
+- [X] AWS Skill Builder - Introduction to AWS IoT Analytics
+- [X] AWS Skill Builder - Deep Dive into Concepts and Tools for Analyzing Streaming Data (Portuguese)
+- [X] AWS Skill Builder - Best Practices for Data Warehousing with Amazon Redshift (Portuguese)
+- [X] AWS Skill Builder - Serverless Analytics (Portuguese)
+- [X] AWS Skill Builder - Why Analytics for Games (Portuguese)
