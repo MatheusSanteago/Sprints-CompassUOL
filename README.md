@@ -6,7 +6,7 @@
 
 ## Sobre mim 😁
     
-Olá, me chamo **Matheus Santeago**, sou de São Gonçalo, RJ. Estou cursando Análise e Desenvolvimento de Sistemas na UniCesumar, até este momento estou no 2° Periodo. 
+Olá, me chamo **Matheus Santeago**, sou de São Gonçalo, RJ. Estou cursando Análise e Desenvolvimento de Sistemas na UniCesumar, até este momento estou no 3° Periodo. 
 
 > Sempre fui apaixonado por tecnologia, e ao ver o impacto que a mesma faz em grande escala em todo mundo <br> despertou em mim o desejo de atuar na área.
 Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei no setor de T.I, no qual mexi com infraestruta e hardware.
@@ -92,3 +92,13 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 - [X] AWS Skill Builder - Best Practices for Data Warehousing with Amazon Redshift (Portuguese)
 - [X] AWS Skill Builder - Serverless Analytics (Portuguese)
 - [X] AWS Skill Builder - Why Analytics for Games (Portuguese)
+
+#### **SPRINT 7** 
+
+<div>
+    <img align="left" alt="ms-pic" height="40" width="40" src="">
+    <img align="left" alt="ms-pic" height="40" width="40" src="">
+</div>
+<br><br><br>
+
+>##### Hadoop e Spark
