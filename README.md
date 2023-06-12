@@ -96,9 +96,13 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 #### **SPRINT 7** 
 
 <div>
-    <img align="left" alt="ms-pic" height="40" width="40" src="">
-    <img align="left" alt="ms-pic" height="40" width="40" src="">
+    <img align="left" alt="ms-pic" height="40" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/2560px-Apache_Spark_logo.svg.png">
+    <img align="left" alt="ms-pic" height="40" width="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/1280px-Hadoop_logo.svg.png">
 </div>
 <br><br><br>
 
 >##### Hadoop e Spark
+
+- [ ] Learn By Example: Hadoop, MapReduce for Big Data problems
+- [ ] Formação Spark com Pyspark : o Curso Completo
+
