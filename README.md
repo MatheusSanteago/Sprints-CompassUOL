@@ -103,6 +103,6 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 
 >##### Hadoop e Spark
 
-- [ ] Learn By Example: Hadoop, MapReduce for Big Data problems
-- [ ] Formação Spark com Pyspark : o Curso Completo
+- [X] Learn By Example: Hadoop, MapReduce for Big Data problems
+- [X] Formação Spark com Pyspark : o Curso Completo
 
