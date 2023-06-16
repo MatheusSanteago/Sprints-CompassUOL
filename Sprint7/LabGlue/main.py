@@ -49,3 +49,5 @@ df_spark.write.option("header", True) \
 
 
 job.commit()
+
+# Arquivo para transformar coluna nome, e realizar o particionamento para o S3
