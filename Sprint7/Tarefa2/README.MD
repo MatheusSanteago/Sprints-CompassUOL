@@ -20,5 +20,5 @@
 - Na redução são agrupadas e com a função add, a formatação realizada é somada conforme as palavras sejam iguais.
 > **words.collect()**
 -  Aqui são exibidas as palavras e suas respectivas contagens 
-> **wwordsS = words.map(lambda x:(x[1],x[0])).sortByKey(False)**
+> **ordenadas = words.map(lambda x:(x[1],x[0])).sortByKey(False)**
 -  Aqui os elementos são ordenados de acordo com o número de repetições, passando o False no sortByKey(), conseguimos uma ordenação decrescente
