@@ -8,7 +8,7 @@ from botocore.exceptions import ClientError
 ACCESS_KEY = os.environ['AWS_ACCESS_KEY_ID']
 SECRET_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
 SESSION_TOKEN = os.environ['AWS_SESSION_TOKEN']
-API_KEY = os.environ['API_KEY_TMDB'] 
+API_KEY = os.environ["API_KEY"]
 
 session = boto3.Session(
     aws_access_key_id=ACCESS_KEY,
@@ -37,19 +37,19 @@ def lambda_handler(event, context):
         microBatchData()
 
         file = "RAW/TMDB/JSON/{}/{}/{}/{}".format(
-            date.year, date.month, date.day, f"actorsAction.json")
+            date.year, date.month, date.day, "actorsAction.json")
 
         try:
             print(f"Fazendo Upload em {file}")
-            s3.put_object(Body=json.dumps(actorsMedia, ensure_ascii=False).encode(
-                'utf8'), Bucket='pblabum', Key=file)
+            s3.put_object(Body=json.dumps(actorsMedia, ensure_ascii=False)
+                          .encode('utf8'), Bucket='pblabum', Key=file)
         finally:
-            print(f"Upload finalizado")
+            print("Upload finalizado")
 
 
 def req(id):
     try:
-        url = f"https://api.themoviedb.org/3/person/{id}/combined_credits?api_key={API_KEY}&language=pt-BR"
+        url = f"https://api.themoviedb.org/3/person/{id}/?append_to_response=movie_credits&api_key={API_KEY}&language=pt-BR"
         response = requests.get(url)
         data = response.json()
     finally:
@@ -61,8 +61,7 @@ def microBatchData():
     for i in range(len(actorsList)):
         data = req(actorsList[i])
 
-        for media in data["cast"]:
-            data = media["id_actor"] = actorsList[i]
+        for media in data:
             actorsMedia.append(media)
 
 
