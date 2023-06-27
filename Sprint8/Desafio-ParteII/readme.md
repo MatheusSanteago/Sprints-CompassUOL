@@ -32,10 +32,14 @@ Camada no Console da AWS
 
 ![Camada](camada.png)
 
-Execução da função no AWS Lambda
+Log de Execução no CloudWatch
 
-![Lambda](lambda.png)
+![Logs](./CloudWatch2706.png)
 
 Resultado no S3 
 
 ![Bucket S3](s3.png)
+
+Agendamento EventBridge
+
+![EventBridge](./EventBridge.png)
