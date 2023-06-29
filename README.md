@@ -115,6 +115,7 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 
 >##### Spark
 
-- [ ] [Atividades](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint8)
+- [X] [Desafio - Parte 2](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint8/Desafio-ParteII)
+- [X] [Spark - Tarefa 4](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint8/Tarefa4)
 
 
