@@ -1,4 +1,4 @@
-![Logo Compass UOL](https://media.licdn.com/dms/image/D4D16AQGNu7n6SGhBpQ/profile-displaybackgroundimage-shrink_200_800/0/1677086381794?e=2147483647&v=beta&t=s968EErrY9945AxkMCd7bRIjftjB2d285XlQorw9Ulo)
+![Logo Compass UOL](https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_CompassoUOL_Positivo.png)
 
 # Data & Analytics - Engenharia de Dados | Compass UOL
 
