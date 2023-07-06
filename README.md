@@ -1,4 +1,4 @@
-![Logo Compass UOL](https://media.licdn.com/dms/image/D4D16AQGNu7n6SGhBpQ/profile-displaybackgroundimage-shrink_200_800/0/1677086381794?e=2147483647&v=beta&t=s968EErrY9945AxkMCd7bRIjftjB2d285XlQorw9Ulo)
+![Logo Compass UOL](https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_CompassoUOL_Positivo.png)
 
 # Data & Analytics - Engenharia de Dados | Compass UOL
 
@@ -115,6 +115,7 @@ Já trabalhei como Jovem Aprendiz em uma empresa de transporte, onde trabalhei n
 
 >##### Spark
 
-- [ ] [Atividades](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint8)
+- [X] [Desafio - Parte 2](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint8/Desafio-ParteII)
+- [X] [Spark - Tarefa 4](https://github.com/MatheusSanteago/Sprints-CompassUOL/tree/main/Sprint8/Tarefa4)
 
 
