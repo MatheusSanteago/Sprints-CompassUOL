@@ -1,4 +1,6 @@
-### Modelagem Lógica
+# Modelagem Dimensional
+
+##### Modelagem Lógica - Snowflake
 
 ![Snowflake](./diagrama.png)
 
