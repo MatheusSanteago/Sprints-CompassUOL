@@ -3,6 +3,8 @@
 ##### Parte 3
 <br>
 
+⚠️ Estou fazendo referente ação/aventura, pois era o tema da minha equipe na qual só sobrou eu
+
 ##### Trusted
 
 Na primeira etapa a finalidade era tratar os dados vindo da RAW e enviar o mesmo para a camada TRUSTED.
