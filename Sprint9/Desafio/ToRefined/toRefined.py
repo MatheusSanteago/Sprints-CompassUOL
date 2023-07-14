@@ -48,7 +48,7 @@ spark.sql("""
 """)
 
 
-# Criação de dimensões.
+# Criação de dimensões e do fato.
 spark.sql("""
     CREATE TEMP VIEW dim_tempo AS
     WITH movies AS (
@@ -136,6 +136,7 @@ dim_personagensDF = spark.table("dim_personagens")
 
 REFINED = "s3://pblabum/REFINED/Movies/"
 
+# Escrevendo no S3
 fato_movieDF.write.parquet(f"{REFINED}fato_papelfilme/", mode="overwrite")
 time.sleep(15)
 dim_tempoDF.write.parquet(f"{REFINED}dim_tempo/", mode="overwrite")

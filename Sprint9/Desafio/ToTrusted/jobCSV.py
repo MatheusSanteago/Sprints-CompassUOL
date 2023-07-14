@@ -30,6 +30,7 @@ df_dynamic = glueContext.create_dynamic_frame.from_options(
 
 df = df_dynamic.toDF()
 
+# Filtrei
 df = df.select("*").where(col("genero").contains("Action")
                           | col("genero").contains("Adventure"))
 
@@ -59,6 +60,7 @@ df = df.select("*").where(
 df = df.drop('id', "tituloPincipal", 'anoFalecimento',
              'titulosMaisConhecidos', "profissao", "generoArtista", "anoNascimento")
 
+# Removi esse ator Jackie Chang
 df = df.where(col("nomeArtista") != "Jackie Chang")
 
 df = df.withColumn("genero", when(col("genero").contains("Adventure") & col("genero").contains("Action"), "Ação/Aventura").
