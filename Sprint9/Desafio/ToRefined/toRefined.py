@@ -7,24 +7,22 @@ sc = SparkContext()
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 
-# Puxando tabelas do database.
 movies_csv = glueContext.create_dynamic_frame.from_catalog(
     database="movies", table_name="tb_moviescsv")
 movies_json = glueContext.create_dynamic_frame.from_catalog(
     database="movies", table_name="tb_moviesjson")
 tb_person = glueContext.create_dynamic_frame.from_catalog(
-    database="movies", table_name="tb_person")
+    database="movies", table_name="tb_person6")
 
 df_movies_csv = movies_csv.toDF()
 df_movies_json = movies_json.toDF()
 df_person = tb_person.toDF()
 
-# Criando views dentro do Spark.
 dfTB_csv = df_movies_csv.createOrReplaceTempView("tb_csv")
 dfTB_json = df_movies_json.createOrReplaceTempView("tb_json")
 dfTB_person = df_person.createOrReplaceTempView("tb_person")
 
-# Criando a tb_movies, tabela auxiliar com a junção da CSV e JSON.
+# tb_movies -> Juntando csv com json
 spark.sql("""
    CREATE TEMP VIEW tb_movies AS (
      WITH movies AS (
@@ -43,18 +41,15 @@ spark.sql("""
             ) SELECT *
             FROM movies
             GROUP BY idRating, titulo, nomeartista, personagem, tempominutos, DataLancamento, genero, dublador, participacaoEspecial
-            ORDER BY idRating ASC
-          )
+            ORDER BY idRating ASC )
 """)
 
-
-# Criação de dimensões e do fato.
 spark.sql("""
     CREATE TEMP VIEW dim_tempo AS
     WITH movies AS (
         SELECT
-          idRating as id,
-          DataLancamento
+            idRating as id,
+            DataLancamento
         FROM tb_movies
     ) SELECT 
         id,
@@ -63,44 +58,42 @@ spark.sql("""
         CAST(SUBSTR(DataLancamento,9,2) AS INT) as dia,
         DATE(DataLancamento) as DataCompleta,
         CASE
-          WHEN CAST(SUBSTR(DataLancamento,6,2) as INT) >= 6 THEN 2
-          ELSE 1
+            WHEN CAST(SUBSTR(DataLancamento,6,2) as INT) >= 6 THEN 2
+            ELSE 1
         END AS Semestre
         FROM movies
 """)
 
 spark.sql("""
     CREATE TEMP VIEW dim_atores AS (   
-      SELECT
-      ROW_NUMBER() OVER (ORDER BY name) id,
-      *
-      FROM tb_person
-    )
+        SELECT
+       ROW_NUMBER() OVER (ORDER BY name) id,
+       *
+       FROM tb_person)
 """)
 
 spark.sql("""
   CREATE TEMP VIEW dim_movies AS (
      SELECT
-        idrating as id,
-        titulo,
-        tempominutos,
-        genero
+            idrating as id,
+            titulo,
+            tempominutos,
+            genero
         FROM tb_movies
-        ORDER BY id
-  )
+        ORDER BY id)
 """)
 
 spark.sql("""
 CREATE TEMP VIEW dim_rating AS     
     SELECT
-          ROW_NUMBER() OVER (ORDER BY csv.numerovotos DESC) id,
-          COALESCE(json.titleen, csv.titulooriginal) AS titulo, 
-          json.popularitytmdb as popularidadeTMDB,
-          json.vote_averagetmdb as notaTMDB,
-          json.vote_counttmdb as numerovotosTMDB,
-          CAST(csv.numerovotos AS INT)  as numerovotosIMDB,
-          CAST(csv.notamedia AS DOUBLE) as nota,
-          CAST(csv.numerovotos AS INT) + json.vote_counttmdb as TotalDeVotos
+            ROW_NUMBER() OVER (ORDER BY csv.numerovotos DESC) id,
+            COALESCE(json.titleen, csv.titulooriginal) AS titulo, 
+            json.popularitytmdb as popularidadeTMDB,
+            json.vote_averagetmdb as notaTMDB,
+            json.vote_counttmdb as numerovotosTMDB,
+            CAST(csv.numerovotos AS INT) as numerovotosIMDB,
+            CAST(csv.notamedia AS DOUBLE) as nota,
+            CAST(csv.numerovotos AS INT) + json.vote_counttmdb as TotalDeVotos
         FROM tb_csv as csv
         RIGHT JOIN tb_json as json ON (json.titleen = csv.titulooriginal) AND csv.nomeartista LIKE json.person
 """)
@@ -126,7 +119,7 @@ spark.sql("""
         )
 """)
 
-# Views como DataFrame
+# Carregar as views como DataFrames
 fato_movieDF = spark.table("fato_papelfilme")
 dim_tempoDF = spark.table("dim_tempo")
 dim_movie = spark.table("dim_movies")
@@ -136,7 +129,6 @@ dim_personagensDF = spark.table("dim_personagens")
 
 REFINED = "s3://pblabum/REFINED/Movies/"
 
-# Escrevendo no S3
 fato_movieDF.write.parquet(f"{REFINED}fato_papelfilme/", mode="overwrite")
 time.sleep(15)
 dim_tempoDF.write.parquet(f"{REFINED}dim_tempo/", mode="overwrite")
