@@ -48,6 +48,11 @@ dfPerson = dfPerson.drop("adult", "also_known_as", "biography", "homepage", "pro
                          "known_for_department",  "external_ids", "id", "movie_credits", "place_of_birth", "deathday")
 dfPerson = dfPerson.withColumn("gender", when(
     col("gender") == 1, 'F').otherwise("M").cast(StringType()))
+
+dfPerson = dfPerson.withColumn("country", when(col("name") == "Sigourney Weaver", "USA").otherwise(col("country")))
+dfPerson = dfPerson.withColumn("city", when(col("name") == "Sigourney Weaver", "New York").otherwise(col("city")))
+dfPerson = dfPerson.withColumn("city", trim(col("city")))
+dfPerson = dfPerson.withColumn("country", trim(col("country")))
 dfPerson = dfPerson.select(
     "name", "gender", "birthday", "city", "country", "popularityTMDB")
 
