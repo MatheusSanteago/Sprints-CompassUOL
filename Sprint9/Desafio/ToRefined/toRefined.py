@@ -58,7 +58,7 @@ spark.sql("""
         CAST(SUBSTR(DataLancamento,9,2) AS INT) as dia,
         DATE(DataLancamento) as DataCompleta,
         CASE
-            WHEN CAST(SUBSTR(DataLancamento,6,2) as INT) >= 6 THEN 2
+            WHEN CAST(SUBSTR(DataLancamento,6,2) as INT) > 6 THEN 2
             ELSE 1
         END AS Semestre
         FROM movies
